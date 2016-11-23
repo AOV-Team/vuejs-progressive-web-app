@@ -15,7 +15,7 @@ config.plugins = (config.plugins || []).concat([
     new HtmlWebpackPlugin({
         analytics: false,
         filename: 'index.html',
-        template: 'app/index.ejs',
+        template: 'src/index.ejs',
         inject: true,
         title: 'Web App'
     })

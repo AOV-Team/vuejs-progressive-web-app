@@ -4,7 +4,7 @@
   "description": "Progressive web app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node build/dev-server.js"
   },
   "repository": {
     "type": "git",
@@ -27,11 +27,17 @@
     "express": "^4.14.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.1",
+    "json-loader": "^0.5.4",
     "pug": "^2.0.0-beta6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
     "vue": "^2.1.0",
     "vue-loader": "^10.0.0",
     "vue-router": "^2.0.3",
-    "vue-style-loader": "^1.0.0"
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.1.0",
+    "vue-validator": "^3.0.0-alpha.1"
   },
   "devDependencies": {
     "url-loader": "^0.5.7",

@@ -1,0 +1,21 @@
+{
+  "name": "vuejs-progressive-web-app",
+  "description": "Progressive web app",
+  "main": "index.js",
+  "authors": [
+    "Martin Ronquillo"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/RonquilloAeon/vuejs-progressive-web-app",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.2.1"
+  }
+}

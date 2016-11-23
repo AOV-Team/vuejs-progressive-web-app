@@ -1,0 +1,10 @@
+{
+    "development": {
+        "api": "",
+        "publicUrl": ""
+    },
+    "production": {
+        "api": "",
+        "publicUrl": ""
+    }
+}

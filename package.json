@@ -1,0 +1,41 @@
+{
+  "name": "vuejs-progressive-web-app",
+  "version": "1.0.0",
+  "description": "Progressive web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonquilloAeon/vuejs-progressive-web-app.git"
+  },
+  "author": "Martin Ronquillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonquilloAeon/vuejs-progressive-web-app/issues"
+  },
+  "homepage": "https://github.com/RonquilloAeon/vuejs-progressive-web-app#readme",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-runtime": "^6.18.0",
+    "css-loader": "^0.26.0",
+    "d3": "^4.4.0",
+    "es6-promise": "^4.0.5",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.4",
+    "pug": "^2.0.0-beta6",
+    "vue": "^2.1.0",
+    "vue-loader": "^10.0.0",
+    "vue-router": "^2.0.3",
+    "vue-style-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "url-loader": "^0.5.7",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2"
+  }
+}

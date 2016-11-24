@@ -15,11 +15,15 @@ import App from './components/App.vue';
 Vue.use(VueValidator);
 Vue.use(VueRouter);
 
-// Router options
-var routerOptions = { hashbang: false, linkActiveClass: 'active-link' };
+// Router
+const routes = [
+    { path: '', component: App }
+];
+
+const router = new VueRouter({ routes });
 
 // Enable Vue's debug mode?
 if (nodeEnv == 'development')
   Vue.config.debug = true;
 
-router.start(App, '#app');
+new Vue({ router }).$mount('#app');

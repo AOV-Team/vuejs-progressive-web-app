@@ -41,6 +41,7 @@ compiler.plugin('compilation', function(compilation) {
 app.use(hotMiddleware);
 // app.use('/font-awesome', express.static(path.resolve(__dirname, '../bower_components/components-font-awesome')));
 // app.use('/media', express.static(path.resolve(__dirname, '../app/media')));
+app.use('/material', express.static(path.resolve(__dirname, '../bower_components/material-design-lite')));
 
 var port = 9090;
 app.listen(port, 'localhost', function (err) {

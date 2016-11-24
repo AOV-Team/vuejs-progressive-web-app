@@ -8,11 +8,16 @@ module.exports = {
     hostname: 'localhost',
     module: {
         loaders: [
-        {
+            {
             test: /\.js$/,
-            exclude: /(node_modules|bower_components)/,
-            loader: 'babel-loader?presets[]=es2015'
-        },
+            include: path.resolve(rootDir, '../src'),
+            exclude: /(bower_components|node_modules)/,
+            loader: 'babel-loader',
+            query: {
+              plugins: ['transform-runtime'],
+              presets: ['es2015']
+            }
+          },
         {
             test: /\.html$/,
             loader: 'html-loader'
@@ -44,6 +49,9 @@ module.exports = {
         filename: 'bundle.js'
     },
     resolve: {
-        root: rootDir
+        root: rootDir,
+        alias: {
+            'vue$': 'vue/dist/vue.js'
+        }
     }
 };

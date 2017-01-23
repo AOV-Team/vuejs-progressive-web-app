@@ -1,10 +1,11 @@
-# IDEA editor config directory and vim
+# IDEA editor, editors, etc
 .idea/
 *~
 *.sw[op]
 *.iml
 *___jb_bak___
 .~lock.*
+.vagrant/
 
 
 ### OSX ###
@@ -36,6 +37,7 @@ Temporary Items
 *.pid
 *.bak
 *.dir
+*.log
 
 # KDE directory preferences
 .directory

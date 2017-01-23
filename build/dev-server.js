@@ -44,7 +44,7 @@ app.use(hotMiddleware);
 app.use('/material', express.static(path.resolve(__dirname, '../bower_components/material-design-lite')));
 
 var port = 9090;
-app.listen(port, 'localhost', function (err) {
+app.listen(port, '0.0.0.0', function (err) {
     if (err) {
         console.log(err);
         return;
